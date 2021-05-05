@@ -1,7 +1,7 @@
 {
-  "name": "PACKAGE_NAME",
+  "name": "spreadsheet-json",
   "version": "0.1.0",
-  "description": "PACKAGE_DESCRIPTION",
+  "description": "Manage Google Spread-Sheet like a JSON",
   "main": "lib/index.js",
   "files": [
     "lib/"
@@ -17,21 +17,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gastonpereyra/PACKAGE_NAME.git"
+    "url": "git+https://github.com/gastonpereyra/spreadsheet-json.git"
   },
   "keywords": [],
   "author": "Gastón Pereyra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gastonpereyra/PACKAGE_NAME/issues"
+    "url": "https://github.com/gastonpereyra/spreadsheet-json/issues"
   },
-  "homepage": "https://github.com/gastonpereyra/PACKAGE_NAME#readme",
+  "homepage": "https://github.com/gastonpereyra/spreadsheet-json#readme",
   "devDependencies": {
-    "eslint": "^7.6.0",
+    "eslint": "^7.25.0",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "mocha": "^8.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.3.2",
     "nyc": "^15.1.0",
-    "sinon": "^9.0.2"
+    "sinon": "^10.0.0",
+    "google-spreadsheet": "^3.1.15"
   }
 }

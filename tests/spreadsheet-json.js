@@ -3,9 +3,9 @@
 const assert = require('assert');
 const sandbox = require('sinon');
 
-const PACKAGE_NAME = require('PACKAGE_NAME');
+const SpreadsheetJson = require('spreadsheet-json');
 
-describe('PACKAGE_NAME', () => {
+describe('Spreadsheet-JSON Lib', () => {
 
     context('When Some condition', () => {
         
